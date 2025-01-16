@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("Img/358696-gold-clock-live-wallpaper-pro-appstore-for-android.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    background-color: rgba(88, 88, 88, 0.5);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.content h2 {
+    color: rgba(237, 241, 0, 0.836);
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.content p {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#label-numero {
+    color: rgba(237, 241, 0, 0.836);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.resultado {
+    color: rgba(237, 241, 0, 0.836);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 0.75rem 1.25rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 550;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    background-color: #b3b3b3;
+    display: inline-block;
+    margin-top: 0.8rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 8px;
+}
+
+/* Estilos adicionais do relógio */
+.clock-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clock {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.date {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.model-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.model-buttons button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.model-buttons button:hover {
+    background-color: #777;
+}
+
+.hidden {
+    display: none;
+}
+
+.analog-clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: 20px auto;
+    background: black;
+}
+
+.analog-clock div {
+    position: absolute;
+    background: white;
+    transform-origin: bottom;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%) rotate(0deg);
+}
+
+.hour-hand {
+    width: 6px;
+    height: 50px;
+    background: white;
+}
+
+.minute-hand {
+    width: 4px;
+    height: 70px;
+    background: white;
+}
+
+.second-hand {
+    width: 2px;
+    height: 90px;
+    background: red;
+}
+
+.model-1 {
+    color: #ff6f61;
+}
+
+.model-2 {
+    color: #6fffcf;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.model-3 {
+    color: #ffd700;
+    text-shadow: 0 0 5px #fffae6;
+}
+
+.model-4 {
+    color: #1e90ff;
+    font-style: italic;
+}
+
+.model-5 {
+    color: #adff2f;
+    font-weight: bold;
+}
