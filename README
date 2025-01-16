@@ -1,0 +1,22 @@
+Este é um projeto de relógio em tempo real que permite alternar entre modelos digital e analógico, além de oferecer múltiplos estilos personalizados. Ele foi desenvolvido utilizando HTML, CSS e JavaScript.
+
+🛠 Tecnologias Utilizadas
+
+HTML5: Estruturação do conteúdo.
+CSS3: Estilização e temas personalizados.
+JavaScript: Atualização em tempo real, lógica de alternância entre modelos e aplicação de estilos.
+
+⚙️ Funcionalidades
+
+Exibição da hora atual em tempo real, com atualização a cada segundo.
+Alternância entre relógios digital e analógico.
+Personalização de estilo com cinco opções diferentes de tema.
+Exibição da data no formato legível para humanos.
+
+🎨 Estilo
+
+Fundo Temático: Imagem de fundo fixa e estilizada.
+Relógio Digital: Exibição de hora e data com formatação moderna.
+Relógio Analógico: Com ponteiros animados para hora, minuto e segundo.
+Botões Interativos: Interface intuitiva para alternar entre modelos e aplicar estilos
+
